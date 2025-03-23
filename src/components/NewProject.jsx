@@ -39,7 +39,7 @@ function NewProject({ onAdd }) {
       <div>
         <Input ref={title} label="Title" />
         <Input ref={description} label="Description" textArea />
-        <Input ref={dueDate} label="Due Date" />
+        <Input ref={dueDate} type="date" label="Due Date" />
       </div>
     </div>
   );
